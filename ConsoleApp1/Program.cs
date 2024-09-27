@@ -43,7 +43,7 @@ class Program
             Console.WriteLine($"Sueldo final de {nombre}: {sueldoFinal:C2}");
         }
 
-        Console.WriteLine($"\nMonto total de sueldos: {totalSueldos}");
+        Console.WriteLine($"\nMonto total de sueldos: {totalSueldos:C2}");
         Console.WriteLine($"Empleados que ganan entre 2500 y 3500: {empleados1}");
         Console.WriteLine($"Empleados que ganan menos de 1000 o más de 4000: {empleados2}");
     }
